@@ -1,6 +1,6 @@
 ---
 title: Splashscreen
-description: Control the splash screen for your app.
+description: This plugin lets you use the splashscreen in full screen view without the status bar. This is a fork of the cordova-plugin-splashscreen with some changes to enable fullscreen view at all times. 
 ---
 <!--
 # license: Licensed to the Apache Software Foundation (ASF) under one
