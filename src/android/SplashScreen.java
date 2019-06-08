@@ -316,9 +316,9 @@ public class SplashScreen extends CordovaPlugin {
                 splashDialog = new Dialog(context, android.R.style.Theme_Translucent_NoTitleBar);
                 splashDialog.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 
-                // check to see if the splash screen should be full screen
+                // set the splashscreen to fullscreen view
                 splashDialog.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-                
+
                 splashDialog.setContentView(splashImageView);
                 splashDialog.setCancelable(false);
                 splashDialog.show();
